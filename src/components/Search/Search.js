@@ -12,7 +12,7 @@ function SearchBar() {
         <input
           type="text"
           placeholder="Search GitHub username..."
-          className="w-96 py-3 px-5 ml-10 bg-transparent "
+          className="w-96 py-3 px-5 ml-10 bg-transparent focus:outline-none"
         />
       </div>
 

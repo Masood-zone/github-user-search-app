@@ -1,12 +1,11 @@
-import { Card, Header, SearchBar } from "./shared";
+import Searchbar from "./_searchbar_test_";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
-    <main className="max-w-screen-tablet flex flex-col gap-5 m-auto justify-center items-center">
-      <Header />
-      <SearchBar />
-      <Card />
-    </main>
+    <div>
+      <Searchbar />
+    </div>
   );
 }
 
