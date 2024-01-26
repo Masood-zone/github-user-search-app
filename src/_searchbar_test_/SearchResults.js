@@ -1,5 +1,5 @@
 import React from "react";
-import { List } from "../shared";
+import List from "./List";
 
 function SearchResults({ results, handleChoice }) {
   const handleSelection = (result) => {
