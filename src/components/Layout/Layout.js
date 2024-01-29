@@ -13,6 +13,7 @@ function Layout() {
   //Submission function
   const handleSubmit = async () => {
     if (!input) {
+      // Incase he submits without inputing anything into the user
       alert("Please enter a Github username.");
     } else {
       try {
